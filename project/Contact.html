@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        #Contact{
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(map.png);
+    height: 475px;
+    margin: 34px;
+}
+.txt{
+    text-align: center;
+    color: whitesmoke;
+    padding: 12px;
+}
+.con{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Form{
+    background-color: white;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    height: 70vh;
+    width: 43vw;
+}
+.Form input{
+    display: flex;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 10px 0;
+    width: 100%;
+}
+.Form textarea{
+    margin-bottom: 10px;
+}
+.Form textarea:focus{
+    outline: none;
+}
+.Form h2{
+    margin-bottom: 15px;
+}
+.Form button{
+    margin-top: 5px;
+    background-color: #fbd0d0;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Form p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.follow{
+    display: block;
+    text-align: center;
+
+}
+.follow p{
+    position: relative;
+}
+.info{
+    margin: 35px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: left;
+}
+.info div{
+    margin: 20px 10px;
+}
+
+    </style>
+</head>
+<body>
+        <section id="Contact">
+        <div class="txt"data-aos="fade-up">
+            <h1>Drop Us a Line</h1>
+        </div>
+        <div class="con" data-aos="fade-up">
+            <div class="Form">
+                <h2>Send message</h2>
+                <p>Ask us anythings! We'll get back to you within 24-48 hours.</p>
+                <form>
+                    <div>
+                        <p>Full name</p>
+                        <input type="text" name="Name">
+                    </div>
+                    <div>
+                        <p>E-mail</p>
+                        <input type="text" name="E-mail">
+                    </div>
+                    <div>
+                        <p>Type your message</p>
+                        <textarea name="Message"cols="50" rows="10" placeholder="Please leave your comment here"></textarea>
+                    </div>
+                    <button>Submit Contact</button>
+                </form>
+            </div>
+            <div class="info">
+                <div>
+                    <i class="fa-solid fa-location-dot"> Address</i>
+                    <p>Akashedhara kapan</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"> Phone no.</i>
+                    <p>9810462120</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope-open"> E-mail</i>
+                    <p>Chyron419@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
