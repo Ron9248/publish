@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.navbar{
+    background-color: #fff3f3;
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    display: flex;
+    align-items: center;
+}
+.ronn{
+    display: inline-block;
+}
+.ronn{
+    display: flex;
+}
+.ronn ul li{
+    display: inline-block;
+    margin: 8px 10px;
+    cursor: pointer;
+}
+.ronn ul li a{
+    color: black;
+    text-decoration: none;
+}
+.ronn ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.ronn ul li:hover::after{
+    width: 100%;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right input{
+    height: 1.2rem;
+    border-radius: 8px;
+    border: none;
+}
+.right input:focus{
+    outline: none;
+}
+.right div{
+    margin: 0 10px;
+}
+        /* .navbar{
+            display: flex;
+            background-color: bisque;
+            color: blueviolet;
+            position: sticky;
+            top: 2px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul{
+            display: flex;
+        }
+         */
+        .p{
+            height: 1100px;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(red.jpg);
+            color: aqua
+        }
+        .navbar  ul ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>Rohan chaudhary</h1></div>
+    <div class="navbar">
+        <div class="ron">
+            <img src="" alt="logo">
+        </div>
+        <div class="ronn">
+            <ul>
+                <li>home
+                    <ul>
+                        <li>Ron</li>
+                        <li>Ron</li>
+                        <li>Ron</li>
+                    </ul>
+                </li>
+                <li>class</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <div class="right">
+            <img src="" alt="Ron">
+        </div>
+    </div>
+    <div class="p">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel nesciunt commodi enim sint quia, quis eveniet rem maiores atque veritatis hic nam! Molestiae aperiam ut, dolore, impedit sapiente aspernatur libero quis, totam obcaecati earum reiciendis amet illum iure? Reiciendis consectetur voluptatibus eum reprehenderit?</p>
+    </div>
+</body>
+</html>
